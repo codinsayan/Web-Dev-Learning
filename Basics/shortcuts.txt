@@ -1,0 +1,32 @@
+ctrl + ',' = open settings
+ctrl + shift + p = open palette
+ctrl + p = finder 
+ctrl + '~' = terminal
+ctrl + b = sidebar toggle
+ctrl + tab = tab change
+ctrl + w = close the window
+ctrl + '+' = zoom in
+ctrl + '-' = zoom out
+ctrl + right arrow = curson to end ofthe word
+ctrl + left arrow = cursor to start of the word
+ctrl + fn + up arrow = upward file
+ctrl + fn + down arrow = downward file
+ctrl + fn + right arrow = cursor to end of the file
+ctrl + fn + left arrow = cursor to the beginning of the file
+shift + right/left arrow = to select letter by letter 
+ctrl + shift + right/left arrow = select word by word
+ctrl + shift + fn + right/left arrow = to select from a specific position to end/start of file
+ctrl + l = select current line
+shift + Delete = delete entire line
+ctrl + x = delete entire line
+alt + shift + down arrow = duplicate line
+alt + up/down arrow = to change the position of the line upside or downside
+alt + point the cursors = to get multiple cursor
+alt + down = to reduce multiple cursors
+ctrl + f2 = change all occurances
+element name + tab = element structure code
+
+
+
+
+
