@@ -23,6 +23,7 @@ alt + shift + down arrow = duplicate line
 alt + up/down arrow = to change the position of the line upside or downside
 alt + point the cursors = to get multiple cursor
 alt + down = to reduce multiple cursors
+esc = to reset multiple cursors
 ctrl + f2 = change all occurances
 element name + tab = element structure code
 
