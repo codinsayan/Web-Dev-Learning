@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media</title>
+  </head>
+  <body>
+    <h1>Learning Media</h1>
+    <img src="./images/img2.jpg" width="200px" title="SpaceX" alt="image" />
+    <p>SpaceX image</p>
+
+    <figure>
+      <img src="./images/img2.jpg" alt="Elephant at sunset" width="200px" />
+      <figcaption>SpaceX</figcaption>
+    </figure>
+
+    <video
+      width="400"
+      src="./Videos/Marvel Studios' Avengers_ Endgame - Official Trailer.mp4"
+      controls
+      controlslist="nofullscreen nodownload noremoteplayback noplaybackrate foobar"
+    >
+      <p>
+        Your browser doesn't support HTML video. Here is a
+        <a href="https://www.youtube.com/watch?v=0jNvJU52LvU"
+          >link to the video</a
+        >
+        instead.
+      </p>
+    </video>
+
+    <br>
+
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/0jNvJU52LvU?si=dGbY2gxE_SdatHEy"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
+
+
+<!--
+The Elements used in the body
+
+<h1>
+- Represents a top-level heading. Used to define the main title of the page. 
+- Example: <h1>Learning Media</h1>
+
+<img>
+- Embeds an image in the document.
+- Attributes:
+    - src: Specifies the image source URL.
+    - width: Sets the width of the image.
+    - title: Provides additional information about the image (tooltip).
+    - alt: Provides alternative text for accessibility.
+- Example: <img src="./images/img2.jpg" width="200px" title="SpaceX" alt="image" />
+
+<p>
+- Represents a paragraph of text.
+- Example: <p>SpaceX image</p>
+
+<figure>
+- Groups media content (e.g., images) with a caption.
+- Example: <figure>...</figure>
+
+<figcaption>
+- Provides a caption or description for the content inside a <figure>.
+- Example: <figcaption>SpaceX</figcaption>
+
+<video>
+- Embeds a video player in the document.
+- Attributes:
+    - src: Specifies the video source URL.
+    - width: Sets the width of the video player.
+    - controls: Adds playback controls (e.g., play, pause).
+    - controlslist: Customizes the controls (e.g., disable fullscreen, download).
+- Example: <video src="./Videos/Marvel Studios' Avengers_ Endgame - Official Trailer.mp4" controls></video>
+
+<a>
+- Defines a hyperlink.
+- Attributes:
+    - href: Specifies the URL of the link.
+- Example: <a href="https://www.youtube.com/watch?v=0jNvJU52LvU">link to the video</a>
+
+<iframe>
+- Embeds another HTML document (e.g., a YouTube video) within the current document.
+- Attributes:
+    - src: Specifies the URL of the embedded content.
+    - width, height: Define the dimensions of the iframe.
+    - title: Describes the embedded content for accessibility.
+    - frameborder: Specifies whether the iframe has a border.
+    - allow: Defines permissions for the embedded content (e.g., autoplay, fullscreen).
+    - referrerpolicy: Controls the referrer information sent with requests.
+    - allowfullscreen: Enables fullscreen mode for the embedded content.
+- Example: <iframe src="https://www.youtube.com/embed/0jNvJU52LvU" allowfullscreen></iframe>
+-->

@@ -1,76 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1>Login Form</h1>
+    <hr />
     <form>
-        <label for="name">
-            Enter Your Name:
-            <input placeholder="Name" type="text" name="name">
-        </label>
-        <label for="password">
-            Enter Your Password:
-            <input placeholder="Enter Your Password" type="password" name="password" id="">
-        </label>
-        <button type="submit">Proceed</button>
-        <button type="reset">Reset</button>
+      <label for="name">
+        Enter Your Name:
+        <input placeholder="Name" type="text" name="name" />
+      </label>
+      <br />
+      <label for="password">
+        Enter Your Password:
+        <input
+          placeholder="Enter Your Password"
+          type="password"
+          name="password"
+          id=""
+        />
+      </label>
+      <br />
+      <button type="submit">Proceed</button>
+      <button type="reset">Reset</button>
     </form>
+
+    <hr />
+
     <div>
-        <form>
-            <h1>Learning Forms</h1>
-            <label for="Email">
-                Email: <input type="email" name="email" id="">
-            </label>
-            <label for="Games">
-                Basketball
-                <input type="checkbox" name="basketball" id="">
-            </label>
-            <label for="Games">
-                Cricket
-                <input type="checkbox" name="basketball" id="">
-            </label>
-            <label for="Indoor">
-                Indoor
-                <input type="radio" name="Indoor" id="">
-            </label>
-            <label for="Indoor">
-                Indoor
-                <input type="radio" name="Outdoor" id="">
-            </label>
-            <label for="pet-menu">
-                Choose a pet:
-                <select name="pet-select" id="pet-menu">
-                    <option value="">-Select Option-</option>
-                    <option value="Dog">Dog</option>
-                    <option value="Cat">Cat</option>
-                    <option value="Cow">Cow</option>
-                    <option value="Pigeon">Pigeon</option>
-                </select>
-            </label>
-            <label for="month">
-                Month:
-                <input type="month" name="month" id="month">
-            </label>
-            <label for="file">
-                Upload the files:
-                <input type="file" name="files" id="file">
-            </label>
-
-            <button type="submit">Submit</button>
-            <button type="reset">Reset</button>
-        </form>
+      <form>
+        <h1>Learning Forms</h1>
+        <hr />
+        <label for="Email">
+          Email: <input type="email" name="email" id="" />
+        </label>
+        <br />
+        <label for="Games">
+          Basketball
+          <input type="checkbox" name="basketball" id="" />
+        </label>
+        <br />
+        <label for="Games">
+          Cricket
+          <input type="checkbox" name="basketball" id="" />
+        </label>
+        <hr />
+        <label for="Indoor">
+          Indoor
+          <input type="radio" name="Indoor" id="" />
+        </label>
+        <label for="Outdoor">
+          Outdoor
+          <input type="radio" name="Outdoor" id="" />
+        </label>
+        <hr />
+        <label for="pet-menu">
+          Choose a pet:
+          <select name="pet-select" id="pet-menu">
+            <option value="">-Select Option-</option>
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Cow">Cow</option>
+            <option value="Pigeon">Pigeon</option>
+          </select>
+        </label>
+        <hr />
+        <label for="month">
+          Month:
+          <input type="month" name="month" id="month" />
+        </label>
+        <hr />
+        <label for="file">
+          Upload the files:
+          <input type="file" name="files" id="file" />
+        </label>
+        <br />
+        <br />
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
     </div>
-
-</body>
+  </body>
 </html>
-
 
 <!--
 Body Section Elements Documentation
+
+<hr> - adds a line in between two elements
+<br> - adds a break in between two elements
 
 1. <h1>
     - Description: Defines the most important heading on the page.
