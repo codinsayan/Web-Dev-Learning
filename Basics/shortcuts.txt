@@ -1,10 +1,13 @@
+VS Code:
 ctrl + ',' = open settings
 ctrl + shift + p = open palette
-ctrl + p = finder 
+ctrl + p = vs code palette 
 ctrl + '~' = terminal
-ctrl + b = sidebar toggle
+ctrl + b = sidebar sidebar
+ctrl + shift + e = focus on explorer/sidebar
 ctrl + tab = tab change
 ctrl + w = close the window
+ctrl + o = open live server
 ctrl + '+' = zoom in
 ctrl + '-' = zoom out
 ctrl + right arrow = curson to end ofthe word
@@ -30,4 +33,7 @@ element name + tab = element structure code
 
 
 
-
+Chrome:
+ctrl + t = new tab
+ctrl + w = delete a tab
+ctrl + shift + t = get back a tab after deletion
