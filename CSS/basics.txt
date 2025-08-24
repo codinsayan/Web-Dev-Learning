@@ -1,0 +1,4 @@
+Priority of design 
+1. font
+2. images
+3. component design

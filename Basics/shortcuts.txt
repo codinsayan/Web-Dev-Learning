@@ -36,4 +36,5 @@ element name + tab = element structure code
 Chrome:
 ctrl + t = new tab
 ctrl + w = delete a tab
+ctrl + tab / ctrl + shift + tab = change tab 
 ctrl + shift + t = get back a tab after deletion
