@@ -110,3 +110,30 @@
     </ul>
   </body>
 </html>
+
+<!-- 
+The box model in CSS defines how the size of elements is calculated, including padding, borders, and margins. 
+There are two primary types of box models:
+
+1. Content-box:
+  - In this model, the width and height of an element only include the content area.
+  - Padding, borders, and margins are not included in the specified width and height.
+  - This is the default box model in CSS.
+  - Example:
+    <div style="box-sizing: content-box; width: 200px; padding: 20px; border: 5px solid black;">
+      Content-box example
+    </div>
+
+2. Border-box:
+  - In this model, the width and height of an element include the content, padding, and border.
+  - Margins are not included in the specified width and height.
+  - This model is often preferred as it simplifies layout calculations, especially when adding padding and borders.
+  - Example:
+    <div style="box-sizing: border-box; width: 200px; padding: 20px; border: 5px solid black;">
+      Border-box example
+    </div>
+
+You can switch between these models using the `box-sizing` property in CSS:
+  - `box-sizing: content-box;` for the content-box model.
+  - `box-sizing: border-box;` for the border-box model.
+-->
