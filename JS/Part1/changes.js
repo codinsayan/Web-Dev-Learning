@@ -9,3 +9,4 @@ const username = "sayan.com"; //it is the constant which we cannot change furthe
 username = "sunny";
 
 console.log(username);
+
